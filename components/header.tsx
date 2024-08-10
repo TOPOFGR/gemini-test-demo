@@ -56,6 +56,7 @@ export function Header() {
         </React.Suspense>
       </div>
       <div className="flex items-center justify-end gap-2">
+        Campus Party
         <Button asChild size="sm" variant="ghost">
           <a
             target="_blank"
