@@ -52,7 +52,7 @@ export const BoardingPass = ({
         </div>
       </div>
       <div className="grid gap-1 p-4 rounded-xl bg-zinc-50">
-        <div className="font-medium text-lg">Rauch / Guillermo</div>
+        <div className="font-medium text-lg">Galeano / Franco</div>
         <div className="flex text-sm justify-between">
           <div>{summary.departure}</div>
           <div className="">{summary.date}</div>
@@ -79,7 +79,7 @@ export const BoardingPass = ({
       </div>
       <div className="hidden sm:flex">
         <Barcode
-          value="12345RAUCHG"
+          value="12345GALEANOF"
           options={{ format: 'code128', height: 20, displayValue: false }}
         />
       </div>
