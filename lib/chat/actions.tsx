@@ -129,8 +129,6 @@ async function describeImage(imageBase64: string) {
 async function submitUserMessage(content: string) {
   'use server'
 
-  await rateLimit()
-
   const aiState = getMutableAIState()
 
   aiState.update({
