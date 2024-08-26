@@ -14,6 +14,7 @@ import { useAIState, useUIState } from 'ai/rsc'
 import { usePathname, useRouter } from 'next/navigation'
 import { useEffect, useState } from 'react'
 import { toast } from 'sonner'
+import IFrame from './IFrame'
 
 export interface ChatProps extends React.ComponentProps<'div'> {
   initialMessages?: Message[]
@@ -72,6 +73,7 @@ export function Chat({ id, className, session, missingKeys }: ChatProps) {
         )}
         <div className="h-px w-full" ref={visibilityRef} />
       </div>
+      <IFrame />
       <ChatPanel
         id={id}
         input={input}
