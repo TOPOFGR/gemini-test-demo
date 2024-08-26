@@ -22,7 +22,7 @@ const IFrame = () => {
   return (
     <>
       <iframe
-        src="https://a644-186-54-186-247.ngrok-free.app/chat/1GFrHuS"
+        src="https://3a39-186-54-57-106.ngrok-free.app/chat/1GFrHuS"
         width="800"
         height="800"
         title="Child iframe"
